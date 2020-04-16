@@ -1,0 +1,6 @@
+{:paths ["src/main" "src/test"]
+ :deps {org.clojure/clojurescript {:mvn/version "1.9.946" :scope "provided"}
+        org.clojure/core.async {:mvn/version "0.3.443"}
+        hiccup   {:mvn/version "1.0.5"}}
+ :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://clojars.org/repo/"}}}
